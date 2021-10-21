@@ -19,7 +19,7 @@ input = "/content/Samples"; os.makedirs(input, exist_ok=True)
 output = "/content/Animation"; os.makedirs(output, exist_ok=True)
 
 # Desired extent
-extent = [-93.0, -60.00, -25.00, 15.00] # Min lon, Max lon, Min lat, Max lat
+extent = [-93.0, -60.00, -25.00, 15.00] # Min lon, Min lat, Max lon, Max lat
 
 # Initial date and time to process
 yyyymmddhhmn = '202107151800'
